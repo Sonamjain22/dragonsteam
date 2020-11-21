@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 90%;
+}
+#firstbg{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(239, 247, 244);
+}
+#firstbg #top{
+    width: 100%;
+    height: 12%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+ #right a{
+     text-decoration: none;
+     color: rgb(70, 68, 68);
+     font-weight: 600;
+     font-size: 11px;
+     margin: 15px;
+     letter-spacing: 1.5px;
+    }
+  #right i{
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+    font-weight: 900;
+    font-size: 13px;
+    margin: 8px;
+    letter-spacing: 1.5px;
+
+  }
+  #top h1{
+      opacity: .7;
+      font-weight: 200;
+  }
+  #middle{
+      width: 100%;
+      height: 80%;
+      display: flex;
+   
+  }
+  #leftl{
+      width: 7%;
+      height: 100%;
+      background-color:#fff;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+
+  }
+  #menu .linel{
+      height: 40px;
+      width: 2px;
+      background-color: rgb(24, 23, 23);
+      margin  : 7px 8px;
+  }
+  #menu{
+      position: absolute;
+      top: 35%;
+      left: 4%;
+  }
+  #menu i{
+      font-size: 10px;
+      margin-left: 5px;
+      display: inline-block;
+  }
+  #num{
+      position: absolute;
+      top: 70%;
+      display: inline;
+     margin: 0px 40px ;
+  }
+  #num >h6{
+      margin-top: -14px;
+      margin-left: 30px;
+  }
+  #num >h4{
+      margin-top: -23px;
+      margin-left: 20px;
+  }
+  
+      
+  
+  #middle #mleft{
+      width: 33%;
+      height: 100%;
+      background-color:#fff;
+  }
+  #mleft >h1{
+      position: absolute;
+      top: 36%;
+      left: 24%;
+      font-size: 60px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 100;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+      
+      
+
+  }
+  #mleft > h6{
+    position: absolute;
+    top: 49%;
+    left: 37%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    word-spacing: 2px;
+   }
+   .line{
+       width: 90px;
+       height: 2px;
+       background-color:red;
+       position: absolute;
+       top: 53%;
+       left: 37%;
+
+
+
+   }
+  #middle #mright{
+      width: 60%;
+      height: 100%;
+      background-image: url(https://media.thereformation.com/image/upload/q_auto:eco/c_scale,w_auto:breakpoints_100_2560_9_20/v1/prod/product_images/veda-leather-pant/black/5d698fd57caf4a49e72ecd7b/original.jpg);
+      background-size:cover;
+      background-position: 0%;
+      background-position-y: top;
+   
+  }
+#bg1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #fff;
+    
+}
+#left1{
+    width: 40%;
+    height: 580px;
+    margin: 40px 40px;
+    position: relative;
+    background-image: url(https://img.freepik.com/free-photo/surprised-happy-girl-pointing-left-recommend-product-advertisement-make-okay-gesture_176420-20191.jpg?size=626&ext=jpg&ga=GA1.2.299622810.1604707200);
+    background-position: center;
+    background-size: cover;
+}
+#box1{
+width: 170px;
+height: 80px;
+background-color: #fff;
+position: absolute;
+top: 26%;
+left: 0px;
+
+}
+#box1 h1{
+    padding: 20px 30px;
+    letter-spacing: 1px;
+}
+#top1{
+    width: 70%;
+    height:580px;
+   
+    position: relative;
+    margin: 40px 0px;
+
+}
+#top1 #upper1{
+    width: 100%;
+    height: 40%;
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    
+}
+#upper1 #img11{
+    width: 28%;
+    height: 70%;
+    background-position:top;
+    background-size: cover;
+    margin: 20px;
+    background-image: url(https://i.pinimg.com/originals/8f/0f/9d/8f0f9d99cb6788a5a7a557b7ff528709.jpg);
+}
+
+
+#upper1 #img12{
+    width: 28%;
+    height: 70%;
+    margin: 20px;
+   background-image: url(https://i.pinimg.com/originals/84/c0/e0/84c0e0465041e8f561743dcd6a3ff5c2.jpg);
+   background-position:center;
+   background-size: cover;
+}
+#upper1 #img13{
+    width: 28%;
+    height: 70%;
+    margin: 20px;
+    background-image: url(https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-410,/pub/media/catalog/product/5/5/5544aeioffwhite-a_1.jpg?rnd=20200526195200);
+    background-position: center;
+    background-size: cover;
+
+}
+#top1 #lower1{
+    width: 100%;
+    height: 50%;
+    background-color:#fff;
+    
+}
+#con1{
+    margin-top: 60px;
+}
+#con1 h6{
+    font-size: 15px;
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    letter-spacing: 1px;
+    color: rgb(53, 51, 51);
+    opacity: .7;
+   
+}
+#con1 h5{
+    font-size: 16px;
+    position: absolute;
+    top: 39%;
+    left: 8%;
+    letter-spacing: 1px;
+    color: rgb(20, 19, 19);
+}
+.line1{
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 40.5%;
+    left: 7%;
+    letter-spacing: 1px;
+    color: rgb(90, 87, 87);
+    opacity: .3;
+}
+#middle1{
+    display: flex;
+    width: 100%;
+    height: 5%;
+    margin-top: 20px;
+    background-color: #fff;
+}
+#con2{
+    margin-top: 60px;
+}
+#con2 h6{
+    font-size: 15px;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    letter-spacing: 1px;
+    color: rgb(53, 51, 51);
+    opacity: .7;
+   
+}
+#con2 h5{
+    font-size: 16px;
+    position: absolute;
+    top: 39%;
+    left: 47%;
+    letter-spacing: 1px;
+    color: rgb(24, 23, 23);
+}
+
+#con2{
+    margin-top: 60px;
+}
+#con3 h6{
+    font-size: 15px;
+    position: absolute;
+    top: 35%;
+    left: 78%;
+    letter-spacing: 1px;
+    color: rgb(53, 51, 51);
+    opacity: .7;
+   
+}
+#con3 h5{
+    font-size: 16px;
+    position: absolute;
+    top: 39%;
+    left: 80%;
+    letter-spacing: 1px;
+    color: rgb(24, 23, 23);
+}
+#lower1{
+    display: flex;
+    justify-content: space-between;
+}
+#lower1 #img21{
+    width: 28%;
+    height: 60%;
+    background-position:top;
+    background-size: cover;
+    margin: 20px;
+    background-image: url(https://i.pinimg.com/236x/4c/17/c6/4c17c6e432b8d939d8ae28518f1dc07b--mirror-sunglasses-pink-sunglasses.jpg);
+}
+
+
+#lower1 #img22{
+    width: 28%;
+    height: 60%;
+    margin: 20px;
+   background-image: url(https://t3.ftcdn.net/jpg/03/49/55/60/360_F_349556017_Xe6A8DLcLV7veJgrqFaUd3PH4JoNkS58.jpg);
+background-position:top;
+background-size: auto;
+}
+#lower1 #img23{
+    width: 28%;
+    height: 60%;
+    margin: 20px;
+    background-image: url(https://image.freepik.com/free-photo/woman-winter-clothes-holds-white-poster-points-her-finger-gray-background_2221-4288.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+#middle22{
+    display: flex;
+    margin-top: -40px;
+}
+
+
+#con11 h6{
+    font-size: 15px;
+    position: absolute;
+    top: 85%;
+    left: 8.5%;
+    letter-spacing: 1px;
+    color: rgb(53, 51, 51);
+    opacity: .7;
+   
+}
+#con11 h5{
+    font-size: 16px;
+    position: absolute;
+    top: 89%;
+    left: 14.5%;
+    letter-spacing: 1px;
+    color: rgb(24, 23, 23);
+}
+#con22 h6{
+    font-size: 15px;
+    position: absolute;
+    top: 85%;
+    left: 43%;
+    letter-spacing: 1px;
+    color: rgb(53, 51, 51);
+    opacity: .7;
+   
+}
+#con22 h5{
+    font-size: 16px;
+    position: absolute;
+    top: 89%;
+    left: 47%;
+    letter-spacing: 1px;
+    color: rgb(24, 23, 23);
+}
+#con33 h6{
+    font-size: 15px;
+    position: absolute;
+    top: 85%;
+    left: 72%;
+    letter-spacing: 1px;
+    color: rgb(53, 51, 51);
+    opacity: .7;
+   
+}
+#con33 h5{
+    font-size: 16px;
+    position: absolute;
+    top: 89%;
+    left: 80%;
+    letter-spacing: 1px;
+    color: rgb(24, 23, 23);
+}
+#bg3{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1591085686350-798c0f9faa7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+    background-size: cover;
+    margin-top: 150px;
+    background-position: center;
+    margin-left: 40px;
+    margin-right: 50px;
+    
+
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 14, 14, 0.623);
+    position: relative;
+}
+#overlay1{
+    width: 50%;
+    height: 75%;
+    background-color:transparent;
+    position: absolute;
+    top: 14%;
+    left: 23%;
+    border: 5px solid rgba(233, 225, 225, 0.884);
+}
+#overlay2{
+    width: 95%;
+    height: 90%;
+    background-color:rgba(255, 255, 255, 0.548);
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+  
+
+}
+#overlay2 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4px;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+
+}
+#overlay2 .line3{
+    width: 188px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    left: 35%;
+    top: 18%;
+
+
+}
+#overlay2>h1{
+    font-family: serif;
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    font-size: 60px;
+
+
+
+}
+#button{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(8, 8, 8);
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    position: relative;
+}
+#button > h6{
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+#down{
+    width: 100%;
+    height: 15%;
+    background-color:#fff;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#downleft>h2{
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-bottom: 5px;
+}
+#downleft>h6{
+    word-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.747);
+    font-weight: 900;
+}
+#downright{
+    display: flex;
+}
+#downright button{
+    margin-right: 80px;
+    padding: 10px 30px;
+    border: 2px solid rgb(63, 63, 63);
+    border-radius: 10px;
+}
+#email{
+    letter-spacing: 2px;
+}
